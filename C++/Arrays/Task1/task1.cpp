@@ -24,8 +24,9 @@ int main()
         if (profit[i] < profit[minMonth]) minMonth = i;
     }
 
-    cout << "Ìàêñèìóì â ìåñÿöå: " << maxMonth + 1 << '\n';
-    cout << "Ìèíèìóì â ìåñÿöå: " << minMonth + 1 << '\n';
+    cout << "ÐœÐ°ÐºÑÐ¸Ð¼ÑƒÐ¼ Ð² Ð¼ÐµÑÑÑ†Ðµ:: " << maxMonth + 1 << '\n';
+    cout << "ÐœÐ¸Ð½Ð¸Ð¼ÑƒÐ¼ Ð² Ð¼ÐµÑÑÑ†Ðµ: " << minMonth + 1 << '\n';
 
     return 0;
+
 }
