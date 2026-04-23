@@ -1,1 +1,70 @@
+# 704. Binary Search / Бинарный поиск
+
+## English
+
+### Problem
+Given an array of integers `nums` sorted in ascending order, and an integer `target`, return the index of `target` if it exists in the array. Otherwise, return `-1`.
+
+You must write an algorithm with runtime complexity `O(log n)`.
+
+### Example 1
+**Input:**  
+`nums = [-1,0,3,5,9,12]`, `target = 9`
+
+**Output:**  
+`4`
+
+**Explanation:**  
+`9` exists in `nums` and its index is `4`.
+
+### Example 2
+**Input:**  
+`nums = [-1,0,3,5,9,12]`, `target = 2`
+
+**Output:**  
+`-1`
+
+**Explanation:**  
+`2` does not exist in `nums`, so return `-1`.
+
+### Constraints
+- `1 <= nums.length <= 10^4`
+- `-10^4 < nums[i], target < 10^4`
+- All the integers in `nums` are **unique**
+- `nums` is sorted in ascending order
+
+---
+
+## Русский
+
+### Условие
+Дан массив целых чисел `nums`, отсортированный по возрастанию, и целое число `target`. Необходимо вернуть индекс числа `target`, если оно существует в массиве. В противном случае вернуть `-1`.
+
+Необходимо написать алгоритм со сложностью `O(log n)`.
+
+### Пример 1
+**Вход:**  
+`nums = [-1,0,3,5,9,12]`, `target = 9`
+
+**Выход:**  
+`4`
+
+**Объяснение:**  
+Число `9` присутствует в массиве `nums`, и его индекс равен `4`.
+
+### Пример 2
+**Вход:**  
+`nums = [-1,0,3,5,9,12]`, `target = 2`
+
+**Выход:**  
+`-1`
+
+**Объяснение:**  
+Число `2` отсутствует в массиве `nums`, поэтому нужно вернуть `-1`.
+
+### Ограничения
+- `1 <= nums.length <= 10^4`
+- `-10^4 < nums[i], target < 10^4`
+- Все числа в массиве `nums` **уникальны**
+- Массив `nums` отсортирован по возрастанию
 
